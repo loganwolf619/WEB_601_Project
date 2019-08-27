@@ -9,11 +9,11 @@ import {NavWrapper} from "./StyledNavBar";
 export default class Navbar extends Component {
     render() {
         return (
-            
-<NavWrapper className="navbar navbar-expand-sm navbar-dark px-sm-5">             
-  <a class="navbar-brand" href="home">Apex Shutterbug
+          
+<NavWrapper className="navbar navbar-expand-lg navbar-light bg-light">        
+  <a class="navbar-brand" href="portfoliolist">Apex Shutterbug
   <Link to="/">
-    <a class="navbar-brand" href="home">
+    <a class="navbar-brand" href="#">
         <img src={logo} width="30" height="30" className="navbarTag" alt="apexShutterbug"></img>
     </a>
     <ButtonLoad className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

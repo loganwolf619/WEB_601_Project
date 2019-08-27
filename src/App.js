@@ -7,9 +7,9 @@ import NavBar from'./components/Navbar';
 import Home from'./components/Home';
 import PortfolioList from './components/PortfolioList';
 import Portfolio from './components/Portfolio';
-import Designs from'./components/Designs';
-import Illustrations from'./components/Illustrations';
-import Photos from'./components/Photos';
+import Designs from'./components/childcomponent/Designs';
+import Illustrations from'./components/childcomponent/Illustrations';
+import Photos from'./components/childcomponent/Photos';
 import Details from'./components/Details';
 import About from'./components/About';
 import Contact from'./components/Contact';
@@ -29,7 +29,7 @@ class App extends Component {
           <NavBar />
             <Switch>
               <Route exact path="/" component={Home} />
-              <Route path="portfoliolist" component={PortfolioList} />
+              <Route path="/portfoliolist" component={PortfolioList} />
               <Route path="/portfolio" component={Portfolio} />
               <Route path="/details" component={Details} />
               <Route path="/designs" component={Designs} />

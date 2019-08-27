@@ -1,6 +1,7 @@
-
 import React, { Component } from 'react';
 import Title from './Title';
+import Portfolio from './Portfolio';
+
 export class Home extends Component {
     state={
         portfolio:[]
